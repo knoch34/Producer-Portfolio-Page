@@ -4,9 +4,9 @@
 }
 
 body {
-    overflow-x: auto;
-    overflow-y: scroll;
+    overflow: scroll;
     display: block;
+    height: 100vh;
     background-color: #292F33;
 }
 
