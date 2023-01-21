@@ -5,9 +5,12 @@
 
 body {
     overflow: scroll;
-    display: block;
     height: 100vh;
     background-color: #292F33;
+}
+
+div {
+    flex-basis: 100%;
 }
 
 .hero {
@@ -197,23 +200,8 @@ footer {
     text-decoration: none !important;
 }
 
-@media (max-width: 75em) {
-    html {
-      font-size: 60%;
+@media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
     }
-  }
-  
-  
-  @media (max-width: 61.25em) {
-    html {
-      font-size: 58%;
-    }
-  }
-  
-  
-  @media (max-width: 28.75em) {
-    html {
-      font-size: 55%;
-    }
-  }
   
