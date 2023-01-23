@@ -192,7 +192,7 @@ span {
     font-size: 25px;
     font-weight: bold;
     color: #F0FAFF;
-    position: fixed;
+    position: relative;
     top: 20%;
     left: 79%;
     text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
