@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Knoch Producer Portfolio Project" />
-    <title>Home | Knoch</title>
+    <title>Producer Portfolio Project</title>
     <link rel="stylesheet" href="home.css">
     <script src="https://kit.fontawesome.com/c066974054.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="hero">
-        <div class="navbar">
-            <h1 class="name">KNOCH</h1>
-            <ul>
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo">KNØCH</a>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
                 <li><a href=""><b>Home</b></a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Features</a></li>
@@ -20,32 +26,32 @@
                 <li><a href="">Licensing</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
-        </div>
-        <div class="cover">
-        </div>
-    </div>
-     <div class="cover image">
-         <a href="https://open.spotify.com/album/7gdFT5eWVdjC11BTbv9i1a?si=JcPFSqYzTZy9h0x6JvYkag">
-            <img class="new-song" src="https://static.wixstatic.com/media/e67782_4f0789fa2d8146cabf0c3b657e501638~mv2.png" width="215" height="215">
-         </a>
+        </nav>
+    </header>
+
+    <div class="cover">
             <span class="dot1"></span>
             <span class="dot2"></span>
             <span class="dot3"></span>
             <span class="dot4"></span>
+        <div class="cover-image">
+            <a href="https://open.spotify.com/album/7gdFT5eWVdjC11BTbv9i1a?si=JcPFSqYzTZy9h0x6JvYkag">
+            <img class="new-song" src="https://static.wixstatic.com/media/e67782_4f0789fa2d8146cabf0c3b657e501638~mv2.png" width="215" height="215">
+             </a>
         </div>
-    <div class="text">
+    </div>
+        <div class="text">
             <h1>NEW</h1>
             <h1>SINGLE</h1>
             <h1>OUT</h1>
             <h1>NOW</h1>
-    </div>
-    <div>
-        <img src="https://static.wixstatic.com/media/e67782_a644a5bc0e144abfb55d39694786c1c7~mv2.png" class="logo">
-    </div>
-    <div class="line"></div>
+        </div>
+        <div class="text-mobile">
+        <h1>New Single Out Now!</h1> 
+        </div>
 </body>
 <footer>
-    <p>Follow me on:</p>
+    <p id="follow">Follow me on:</p>
     <div class="contact-footer">
      <a href="https://instagram.com/k.n.o.c.h" target="_blank">
         <i class="fa-brands fa-instagram"></i>
