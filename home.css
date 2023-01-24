@@ -65,9 +65,7 @@ b {
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
-.menu a b:hover {
-    color: #CADDE6;
-}
+
 .nav{
     max-height: 0;
     transition: max-height .5s ease-out;
