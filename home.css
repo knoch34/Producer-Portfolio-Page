@@ -56,12 +56,12 @@ ul{
     font-family: Raleway, Sans-serif;
 }
 .menu a:hover{
-    background-color: #CADDE6;
+    background-color: #F0FAFF;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
 b {
-    color: #9AAEB8;
+    color: #CADDE6;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
