@@ -21,6 +21,14 @@ body{
     width: 100%;
     height: 100%;
 }
+body::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
 a{
     text-decoration: none;
 }
@@ -36,7 +44,7 @@ header{
 }
 header.active {
     background: #F0FAFF;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 /* Logo */
 .logo{
@@ -44,7 +52,7 @@ header.active {
     color: #9AAEB8;
     font-size: 50px;
     font-family: Museo;
-    margin-left: 15px;
+    margin-left: 20px;
     margin-top: 15px;
 }
 /* Nav menu */
@@ -165,6 +173,7 @@ footer {
 .song-links {
     padding-left: 10rem;
     padding-top: 4rem;
+    text-align: center !important;
 }
 
 /* Responsiveness */
