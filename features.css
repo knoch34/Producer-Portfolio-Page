@@ -195,8 +195,8 @@ footer {
 
 @media (max-width: 768px) {
     body {
-        height:100vh;
-        background-attachment: fixed;
+        height: 100%;
+        width: 100%;
     }
 
     footer {
